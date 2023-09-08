@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on akira.fyi</title>
+    <link>https://akira.fyi/posts/</link>
+    <description>Recent content in Posts on akira.fyi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 08 Sep 2023 15:57:48 +0200</lastBuildDate><atom:link href="https://akira.fyi/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>https://akira.fyi/posts/my-first-post/</link>
+      <pubDate>Fri, 08 Sep 2023 15:57:48 +0200</pubDate>
+      
+      <guid>https://akira.fyi/posts/my-first-post/</guid>
+      <description>Introduction This is bold text, and this is emphasized text.
+Visit the Hugo website!</description>
+    </item>
+    
+  </channel>
+</rss>
