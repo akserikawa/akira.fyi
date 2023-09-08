@@ -1,0 +1,4 @@
+baseURL = 'https://akira.fyi/'
+languageCode = 'en-us'
+title = "akira.fyi"
+theme = 'ananke'
