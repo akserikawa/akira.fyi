@@ -1,4 +1,119 @@
 baseURL = 'https://akira.fyi/'
 languageCode = 'en-us'
+title = 'akira.fyi'
+theme = 'PaperMod'
+paginate = 5
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+
+[minify]
+disableXML = true
+minifyOutput = true
+
+# disqusShortname = 'YOUR_DISQUS_SHORTNAME'   # use disqus comments
+
+[params]
+title = 'akira.fyi'
+description = 'Yet another blog on the internet.'
+keywords = ["Blog","Software","Development","Engineering","Lifestyle","Entrepreneurship","Tech"]
+author = "Akira"
+DateFormat = "January 2, 2006"
+defaultTheme = "auto" # dark, light
+ShowReadingTime = true
+ShowShareButtons = true
+ShareButtons = ["linkedin", "telegram", "twitter"]
+ShowPostNavLinks = true
+ShowBreadCrumbs = false
+ShowCodeCopyButtons = true
+ShowWordCount = false
+ShowRssButtonInSectionTermList = false
+UseHugoToc = true
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = true
+hidemeta = false
+hideSummary = false
+showtoc = true
+tocopen = false
+
+[params.assets]
+# disableHLJS = true # to disable highlight.js
+# disableFingerprinting = true
+favicon = "/favicon.ico"
+favicon16x16 = "/favicon-16x16.png"
+favicon32x32 = "/favicon-32x32.png"
+apple_touch_icon = "/apple-touch-icon.png"
+safari_pinned_tab = "/safari-pinned-tab.svg"
+
+[params.profileMode]
+enabled = false # needs to be explicitly set
 title = "akira.fyi"
-theme = 'ananke'
+subtitle = "Yet another blog on the internet."
+imageUrl = "https://0.gravatar.com/userimage/78178711/8137edb1c917150e7d9a66a48977e04f?size=120"
+imageWidth = 120
+imageHeight = 120
+imageTitle = "profilePic"
+
+[[params.profileMode.buttons]]
+name = "Posts"
+url = "posts"
+
+[params.homeInfoParams]
+Title = "Yet another blog on the internet."
+Content = "My name is Akira and I'm out here trying to step out of the comfort zone and share my thoughts with the world.\n\nIf you're reading this, I hope you find something of value while scrolling. If not, that's fine too.\n\nYou probably have more fun things to do today."
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/akserikawa"
+
+[[params.socialIcons]]
+name = "spotify"
+url = "https://open.spotify.com/user/yuens?si=6a77662fb7c24633"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/akiraserikawa"
+
+[[params.socialIcons]]
+name = "email"
+url = "mailto://akserikawa@gmail.com"
+
+[params.cover]
+hidden = true # hide everywhere but not in structured data
+hiddenInList = true # hide on list pages and home
+hiddenInSingle = true # hide on a single page
+
+[params.fuseOpts]
+isCaseSensitive = false
+shouldSort = true
+location = 0
+distance = 1000
+threshold = 0.4
+minMatchCharLength = 0
+keys = ["title", "permalink", "summary", "content"]
+
+[[menu.main]]
+identifier = "archives"
+name = "Archives"
+url = "/archives/"
+weight = 10
+
+[[menu.main]]
+name = "Search"
+pageref = "search"
+weight = 4
+
+pygmentsUseClasses = true
+
+[markup.highlight]
+noClasses = false
+# anchorLineNos = true
+# codeFences = true
+# guessSyntax = true
+# lineNos = true
+# style = "monokai"
